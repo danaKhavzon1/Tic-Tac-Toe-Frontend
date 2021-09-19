@@ -196,11 +196,11 @@ export default function TicTacToe(props) {
             </div>
             <div className={`${classes["room-info-content"]}`}>
               <div>
-                {`${playersState.thisPlayer.name}(${playersState.thisPlayer.type}):`}
+                {`${playersState.thisPlayer.name}(${playersState.thisPlayer.type}): `}
                 {playerTurnState ? <span>Your turn!</span> : ""}
               </div>
               <div>
-                {`${playersState.opponent.name}(${playersState.opponent.type}):`}
+                {`${playersState.opponent.name}(${playersState.opponent.type}): `}
                 {!playerTurnState ? <span>Opponent&apos;s turn!</span> : ""}
               </div>
             </div>
