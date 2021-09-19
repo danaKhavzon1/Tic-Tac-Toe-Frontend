@@ -1,0 +1,46 @@
+.room {
+  margin: 0em 2em;
+}
+.room-info-container {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.room-info-wrapper {
+  border: 1px solid #bdbcbc;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 1em 4em;
+  box-sizing: content-box;
+  width: 400px;
+}
+
+.room-info-header {
+  text-align: center;
+}
+.room-info-header h1{
+  margin:0.5em 0;
+}
+.room-info-content {
+  color: black;
+  padding: 0 1em;
+  font-size: 1.5em;
+}
+.room-info-content span{
+  color: #807980;
+}
+
+
+.quit-btn-wrapper{
+  position: fixed;
+  top:160px;
+  left: 20px;
+}
+
+.home-btn-modal-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

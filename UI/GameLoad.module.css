@@ -1,0 +1,16 @@
+.loading-game-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  z-index: 3000;
+}
+
+.loading-game {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+.room-option-wrapper {
+  width: 100%;
+  background-color: hsl(35, 100%, 94%);
+  color: #848080;
+  margin-bottom: 1.2em;
+  border: 1px solid #a1a1a1;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.room-option-wrapper:hover {
+  box-shadow: 10px 0px 10px 0px #2f9939;
+}
+.room-option {
+  width: 100%;
+  padding: 2em 1em;
+}
+
+.full {
+  opacity: 0.5;
+}

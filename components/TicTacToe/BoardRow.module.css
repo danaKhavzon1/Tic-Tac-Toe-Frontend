@@ -1,0 +1,18 @@
+.board-row-wrapper {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.board-row {
+  height: 100%;
+  width: 100%;
+}
+
+.middle-row {
+  border-top: 8px solid #ffe08d;
+  border-bottom: 8px solid #ffe08d;
+}

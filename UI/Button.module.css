@@ -1,0 +1,67 @@
+.modal-btn button {
+  border: none;
+  background: wheat;
+  margin: 0 auto;
+  display: block;
+  padding: 1.5em 0.7em;
+  font-size: 2em;
+  font-family: cursive;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-btn button:focus {
+  outline: none;
+}
+
+.nav-btn button {
+  background-color: transparent;
+  color: #e6a152;
+  border-radius: 5px;
+  font-size: 1.7em;
+  border: 2px solid #e6a152;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+.nav-btn button:hover {
+  background-color: #e6a152;
+  color: white;
+  border: 2px solid #e6a152;
+}
+
+.quit-btn button {
+  background-color: transparent;
+  color: #f90f0f;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: 1px solid #f90f0f;
+  padding: 0.5em 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+.quit-btn button:hover {
+  background-color: #f90f0f;
+  color: white;
+  border: 1px solid #f90f0f;
+  cursor: pointer;
+}
+
+.begin-game-btn button {
+  background-color: #f8a81f;
+  color: white;
+  font-size: 2em;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: font-size 0.3s;
+  font-weight: bold;
+}
+.begin-game-btn button:hover {
+  font-size: 2.5em;
+
+  /* padding: 1em 2em; */
+}

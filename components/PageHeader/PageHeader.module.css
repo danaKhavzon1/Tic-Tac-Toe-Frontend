@@ -1,0 +1,34 @@
+.page-header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 1px 46px darkgoldenrod;
+  z-index: 4000;
+}
+.page-header-container::before {
+  min-height: 110px;
+}
+
+.page-header-wrapper {
+  width: 100%;
+  padding: 2em 0;
+  background-color: #ffca84;
+}
+.page-header {
+}
+
+.page-header-content {
+  color: #2f9939;
+  margin: 0;
+  text-align: center;
+  font-size: 3em;
+  font-family: cursive;
+}
+
+
+@media(max-width:500px){
+  .page-header-content {
+    font-size: 2em;
+  }
+  
+}

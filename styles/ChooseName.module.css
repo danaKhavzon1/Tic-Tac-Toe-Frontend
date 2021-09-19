@@ -1,0 +1,57 @@
+.choose-name {
+  margin: 0 4em;
+}
+
+.nav-btn-wrapper {
+  position: fixed;
+  left: 20px;
+  top: 200px;
+}
+
+.choose-nickname-wrapper {
+  color: black;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: cursive;
+  margin-top: 2em;
+}
+.choose-nickname {
+  width: 100%;
+  margin: 0;
+}
+
+.enter-nickname-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 4em 0;
+}
+
+.enter-nickname-input input {
+  color: #ded7d7;
+  font-size: 2.5em;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  border-bottom: 4px solid #b7b7b7;
+  color: #969494;
+  text-align: center;
+  background-color: transparent;
+}
+.enter-nickname-input input:focus {
+  color: #969494;
+  border: none;
+  /* box-shadow: 0px 0px 10px black; */
+  outline: none;
+  cursor: text;
+  border-bottom: 4px solid #b7b7b7;
+}
+
+.begin-game-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}

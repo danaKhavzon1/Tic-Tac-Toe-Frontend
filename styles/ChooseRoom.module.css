@@ -1,0 +1,34 @@
+.choose-room {
+  margin: 0 4em;
+}
+
+.nav-btn-wrapper {
+  position: fixed;
+  left: 20px;
+  top: 200px;
+}
+
+.choose-room-header-wrapper {
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+.choose-room-header {
+  width: 100%;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.choose-rooms-container {
+  max-height: 900px;
+  max-width: 500px;
+  overflow: hidden;
+  margin: 1em auto 0 auto;
+}
+.choose-rooms-wrapper {
+  overflow: scroll;
+}
+
+.choose-rooms {
+  height: 100%;
+}

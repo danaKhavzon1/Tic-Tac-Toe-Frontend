@@ -1,0 +1,15 @@
+.loading-game {
+    margin: 0 4em;
+  }
+  
+  .loading-wrapper {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 6em;
+  }
+  .loading {
+    width: 100%;
+    margin: 0;
+  }
+  

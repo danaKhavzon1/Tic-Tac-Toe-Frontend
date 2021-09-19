@@ -1,0 +1,54 @@
+.message-wrapper {
+  position: fixed;
+  background-color: transparent;
+  top: 100px;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+  z-index: 2500;
+}
+
+body.backdrop {
+  overflow-y: hidden;
+}
+
+.message {
+  background-color: white;
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  top: 10%;
+  right: calc(50%);
+  transform: translateX(50%);
+  padding: 2em;
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 3000;
+}
+
+.message-content {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.message h2 {
+  margin: 0 auto;
+  font-size: 3em;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.game-tied {
+  color: orangered;
+}
+
+.game-lost {
+  color: red;
+}
+.game-won {
+  color: green;
+}
+.general {
+  color: black;
+}
