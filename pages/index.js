@@ -1,7 +1,8 @@
-import classes from "../styles/Home.module.css";
+
 import Link from "next/link";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import classes from "../styles/Home.module.css";
 import Button from "../UI/Button";
 export default function Home() {
   const router = useRouter();
@@ -29,3 +30,4 @@ export default function Home() {
     </div>
   );
 }
+  
