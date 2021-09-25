@@ -5,8 +5,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 
-1) Run next build
-2) Run next start
+1) Run npx next build
+2) Run npx next start
 4) Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 For the project to work you must run the server as well (Tic-Tac-Toe-Backend)
